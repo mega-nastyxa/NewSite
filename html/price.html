@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html html__catalog lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мединталь</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="icon" type="image/png" href="./img/icon.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="container__header">
+                <div class="logo">
+                    <img class="logo__img"src="../img/header/logo.svg" alt="">
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <!-- <div class="dropdown">
+                                <button class="dropbtn">Услуги</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Приемы врачей</a>
+                                    <a href="#">Диагностика организма</a>
+                                    <a href="#">Капельницы</a>
+                                    <a href="#">Капельницы</a>
+                                    <a href="#">осметология</a>
+
+                                </div>
+                            </div> -->
+                            
+                        </li>
+                        <li class="menu__item">
+                           <a href="../html/home.html">Главная</a> 
+                        </li>
+                        <li class="menu__item">
+                            Цены
+                        </li>
+                        <li class="menu__item">
+                            <a href="../html/doctors.html">Специалисты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="home.html#about-clinic">О клинике</a> 
+                        </li>
+                    </ul>
+                </nav>
+                <div class="number">
+                    <p>8 (901) 352-22-02</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="price">
+        <div class="services services_diagnostics">
+            <h2 class="services__title">Диагностика организма</h2>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Консультация врача-терапевта</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Первичная консультация</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Повторная консультация</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Veda Pulse</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Анализ на сахар</span>
+                        <span class="sub-service-price">400 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Анализ на холестерин</span>
+                        <span class="sub-service-price">500 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">биорезонансная диагностика организма</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>УЗИ печени</span>
+                        <span class="sub-service-price">1200 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>УЗИ почек</span>
+                        <span class="sub-service-price">1200 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Чек-ап организма</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Check-up «Базовый»</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Check-up «Расширенный»</span>
+                        <span class="sub-service-price">2000 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Check-up «Женский»</span>
+                        <span class="sub-service-price">2000 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Check-up «Мужской»</span>
+                        <span class="sub-service-price">2000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Лабораторная диагностика</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Ковид</span>
+                        <span class="sub-service-price">2000 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Экспресс</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Дефицит нутриентов</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Жк профиль</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Гормональный профиль</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Остеопороз</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Базовая</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Мужская</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Женская</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Детокс</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Антистресс</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Здоровое сердце</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Добавьте остальные услуги аналогичным образом -->
+        </div>
+
+        <div class="services services_dermatology">
+            <h2 class="services__title">Дерматология</h2>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Консультация врача-дерматолога</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Первичная консультация</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Повторная консультация</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Диагностика и удаление новообразований</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Радиоволновая деструкция - грудь, живот, спина</span>
+                        <span class="sub-service-price">1 200 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Радиоволновая деструкция - лицо, шея, гениталии</span>
+                        <span class="sub-service-price">3 450  руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Удаление контагиозного моллюска</span>
+                        <span class="sub-service-price">1 200 руб.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services services_drop">
+            <h2 class="services__title">Капельницы</h2>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">капельницы IV - терапия</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Первичная консультация</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Повторная консультация</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">ВЛОК (внутривенное лазерное облучение крови)</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Анализ на сахар</span>
+                        <span class="sub-service-price">400 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Анализ на холестерин</span>
+                        <span class="sub-service-price">500 руб.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services services_cosmetology">
+            <h2 class="services__title">Косметология</h2>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Консультация врача-косметолога</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Первичная консультация</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Повторная консультация</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Инъекционная косметология</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Анализ на сахар</span>
+                        <span class="sub-service-price">400 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Анализ на холестерин</span>
+                        <span class="sub-service-price">500 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Аппаратная косметология</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>УЗИ печени</span>
+                        <span class="sub-service-price">1200 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>УЗИ почек</span>
+                        <span class="sub-service-price">1200 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Трихология</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>ЭКГ с нагрузкой</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>ЭКГ с холтером</span>
+                        <span class="sub-service-price">2000 руб.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services services_osteopathy">
+            <h2 class="services__title">Остеопатия</h2>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Консультация врача-остеопата</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>Первичная консультация</span>
+                        <span class="sub-service-price">1500 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>Повторная консультация</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services services_body-shaping">
+            <h2 class="services__title">Корекция фигуры</h2>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Ручной массаж</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>1 сеанс</span>
+                        <span class="sub-service-price">400 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>5 сеансов</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Аппартный массаж LPG</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>1 сеанс</span>
+                        <span class="sub-service-price">400 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>5 сеансов</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Вибромассаж</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>1 сеанс</span>
+                        <span class="sub-service-price">400 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>5 сеансов</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Прессотеррапия</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>1 сеанс</span>
+                        <span class="sub-service-price">400 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>5 сеансов</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item" onclick="toggleSubServices(this)">
+                <span class="service-name">Обертывание</span>
+                <div class="sub-services">
+                    <div class="sub-service-item">
+                        <span>1 сеанс</span>
+                        <span class="sub-service-price">400 руб.</span>
+                    </div>
+                    <div class="sub-service-item">
+                        <span>5 сеансов</span>
+                        <span class="sub-service-price">1000 руб.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Добавьте остальные услуги аналогичным образом -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="container__footer">
+                <div class="information">
+                    <div class="information__data information__data-number">
+                        <p>8 (901) 352-22-02</p>
+                        <p>10:00-21:00</p>
+                    </div>
+                    <div class="information__data information__data-mail">
+                        <p>medintal@mail.ru</p>
+                    </div>
+                    <div class="information__data information__data-adress">
+                        <p>Балашиха, пр-кт Ленина 25, этаж 5, офис 504</p>
+                    </div>
+                    <div class="signUp">
+                        Записаться:
+                    </div>
+                    <div class="information__signUp">
+                        <div class="icon telegram">
+                            <img src="../img/footer/telegram.svg" alt="">
+                        </div>
+                        <div class="icon whatsapp">
+                            <img src="../img/footer/whatsapp.svg" alt="">
+                        </div>
+                        <div class="icon telephone">
+                            <img src="../img/footer/call.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleSubServices(element) {
+            const subServices = element.querySelector('.sub-services');
+            subServices.classList.toggle('open');
+        }
+
+    </script>
+</body>

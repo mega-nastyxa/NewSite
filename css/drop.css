@@ -1,0 +1,58 @@
+.drop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+}
+
+.container__drop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drop__cards {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(2, 700px);
+    grid-template-rows: repeat(10, 330px);
+    padding-bottom: 77px;
+    
+}
+
+.drop-card {
+    background-color: rgb(132, 112, 158);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.drop__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 70px;
+    color: rgb(63, 47, 102);
+    padding: 60px 0 30px 0;
+}
+
+.drop-subtitle {
+    font-size: 70px;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.drop-text {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.card__img_drop {
+    padding-right: 20px;
+}
+
+

@@ -1,0 +1,33 @@
+.excellence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    font-size: 30px;
+}
+
+.container__excellence {
+    display: flex;
+    justify-content: center;
+}
+.cards {
+    display: grid;
+    justify-content: space-between;
+    width: 1000px;
+    grid-template-columns: repeat(4, 246px);
+    grid-template-rows: repeat(1, 130px);
+}
+
+.card {
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card__title h2 {
+    display: flex;
+    text-align: center;
+}

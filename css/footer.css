@@ -1,0 +1,157 @@
+.footer {
+    height: 380px;
+    background-image: url(../img/footer/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container__footer {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+.information__data {
+    padding-bottom: 9px;
+}
+
+.information__data-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.signUp {
+    padding-top: 50px;
+}
+
+.information__signUp {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    width: 425px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.icon {
+    background-color: #f2f2f296;
+    border: none;
+    border-radius: 50%; /* Круглая форма */
+    width: 59px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* .information {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+.data {
+    padding-bottom: 9px;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.signUp {
+    padding-top: 50px;
+}
+
+.signUp-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    width: 425px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.icon {
+    background-color: #f2f2f296;
+    border: none;
+    border-radius: 50%;
+    width: 59px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1306px) {
+    .information {
+        padding-right: 30px;
+        font-size: 17px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 780px) {
+    .footer {
+        height: 250px;
+        background-size: 100% 100%;
+        margin-top: 40px;
+    }
+
+    .container__footer {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+        font-size: 13px;
+        padding-top: 20px;
+        width: 280px;
+    }
+
+    .signUp {
+        padding-top: 30px;
+
+    }
+
+    .signUp-icon {
+        display: flex;
+        flex-direction: row;
+        gap: 13px;
+        width: auto;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+} */

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color: #fefdff;
+    --secondary-color: #FBFBFB;
+    --dark-color: #ada8bb;
+}
+
+body {
+    margin: 0;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-family: "Alumni Sans", sans-serif;;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    width: 1340px;
+}

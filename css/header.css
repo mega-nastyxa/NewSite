@@ -36,3 +36,101 @@
     display: flex;
     font-family: "Alumni Sans", sans-serif;;
 }
+
+.menu-bar {
+    display: none;
+    position: absolute;
+    /* left: -500px;
+    top: 0;
+    width: 500px; */
+
+    top: 95px;
+    width: 1340px;
+    background-color: #efebf1;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 20px 0 30px 19px;
+    border-radius: 20px;
+    /* height: 100%; */
+    z-index: 2;
+}
+
+.menu-bar__list {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(4, 312px);
+    grid-template-rows: repeat(1, auto);
+    /* padding-bottom: 77px; */
+}
+
+.menu-bar__link {
+    color: #332240;
+    font-size: 20px;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menu-button {
+    border: none;
+    font-weight: 500;
+}
+
+.header .open .menu-bar {
+    display: block;
+}
+
+.menu__data {
+    color: #332240;
+    width: 290px;
+    font-size: 16px;
+}
+
+.icon-menu {
+    background-color: #9189A1;
+    border: none;
+    border-radius: 50%; /* Круглая форма */
+    width: 59px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp-icon-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    width: auto;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.data-menu {
+    padding-top: 20px;
+}
+
+.menu-bar__sub-list {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #59595a;
+}
+
+.menu-bar__sub-list li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 5px 0px;
+}
+
+/* .menu__data {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.menu-icon {
+    padding-right: 3px;
+}

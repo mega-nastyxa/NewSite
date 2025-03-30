@@ -16,8 +16,8 @@
 .drop__cards {
     display: grid;
     gap: 35px;
-    grid-template-columns: repeat(2, 700px);
-    grid-template-rows: repeat(10, 330px);
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(10, 290px);
     padding-bottom: 77px;
     
 }
@@ -41,13 +41,13 @@
 }
 
 .drop-subtitle {
-    font-size: 70px;
+    font-size: 50px;
     color: aliceblue;
     padding-bottom: 20px;
 }
 
 .drop-text {
-    font-size: 25px;
+    font-size: 22px;
     color: aliceblue;
 }
 

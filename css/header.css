@@ -78,7 +78,8 @@
     font-weight: 500;
 }
 
-.header .open .menu-bar {
+/* .header .open .menu-bar*/ 
+.menu-bar.visible{ 
     display: block;
 }
 
@@ -133,4 +134,19 @@
 
 .menu-icon {
     padding-right: 3px;
+}
+
+.information__signUp-header {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    width: auto;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.icon-header {
+    display: flex;
+    justify-content: center;
+
 }

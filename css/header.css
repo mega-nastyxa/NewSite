@@ -142,11 +142,82 @@
     gap: 23px;
     width: auto;
     justify-content: center;
-    padding-top: 0px;
 }
 
 .icon-header {
     display: flex;
     justify-content: center;
+}
 
+.telephone-header {
+    display: none;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media (max-width: 1372px) {
+    
+    .container__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        width: 100%;
+    }
+
+    .logo__img {
+        width: 80px;
+    }
+
+    .information__signUp-header {
+        gap: 10px;
+    }
+
+    .number {
+        display: none;
+    }
+
+    .telephone-header  {
+        display: flex;
+        width: 28px;
+    }
+
+    .telephone-header img {
+        width: 27px;
+        height: 27px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .information__signUp-header,
+    .menu {
+        display: none;
+    }
+
+    
+
+    .menu-button {
+        border: none;
+        border-radius: 50%; /* Круглая форма */
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        flex-flow: column wrap;
+        background-color: #e9e4e8;
+        z-index: 2;
+    }
+
+    .bar {
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: #8778a8;
+        margin: 3px 0;
+        border-radius: 1px;
+    }
 }

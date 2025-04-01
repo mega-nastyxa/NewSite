@@ -1,10 +1,20 @@
 .promo {
-  display: flex;
+  width: 100%;
+  height: auto;
+
+  /* display: flex;
   justify-content: center;
-  overflow-x: hidden;
+  overflow-x: hidden; */
 }
 
-#carousel {
+.promo img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* #carousel {
   position: relative;
   height: 600px;
   width: 1855px;
@@ -40,7 +50,7 @@
   position: absolute;
   top: 0;
   color: transparent;
-  /* border: 1px solid #fff; */
+  /* border: 1px solid #fff;
   width: 100px;
   height: 100%;
   line-height: 326px;
@@ -71,4 +81,4 @@
 #carousel .next:hover,
 #carousel .previous:hover {
   background: rgba(0, 0, 0, .2);
-}
+} */

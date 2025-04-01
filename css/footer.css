@@ -59,54 +59,7 @@
     align-items: center;
 }
 
-
-
-
-
-
-/* .information {
-    display: flex;
-    flex-direction: column;
-    padding-right: 100px;
-    font-size: 20px;
-    padding-top: 80px;
-}
-
-.data {
-    padding-bottom: 9px;
-}
-
-.number {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.signUp {
-    padding-top: 50px;
-}
-
-.signUp-icon {
-    display: flex;
-    flex-direction: row;
-    gap: 13px;
-    width: 425px;
-    justify-content: center;
-    padding-top: 15px;
-}
-
-.icon {
-    background-color: #f2f2f296;
-    border: none;
-    border-radius: 50%;
-    width: 59px;
-    height: 59px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (max-width: 1306px) {
+@media (max-width: 1040px) {
     .information {
         padding-right: 30px;
         font-size: 17px;
@@ -136,6 +89,10 @@
         width: 280px;
     }
 
+    .information__signUp {
+        width: auto;
+    }
+
     .signUp {
         padding-top: 30px;
 
@@ -154,4 +111,4 @@
         width: 50px;
         height: 50px;
     }
-} */
+}

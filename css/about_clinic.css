@@ -7,8 +7,7 @@
     align-items: center;
     
 }
-.container {
-}
+
 .container__about_clinic {
     width: 100%;
     height: 400px;
@@ -43,4 +42,140 @@
 .about_clinic__img {
     width: 50%;
     height: 400px;
+}
+
+@media (max-width: 1372px) {
+    .about_clinic {
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .container__about_clinic {
+        height: 720px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_clinic__info {
+        width: 600px;
+        
+    }
+
+    .about_clinic__img {
+        width: 600px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 641px) {
+    .about_clinic {
+        height: 570px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .container__about_clinic {
+        height: 570px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_clinic__info {
+        width: 400px;
+        height: 270px;
+        
+    }
+
+    .about_clinic__text {
+        width: 400px;
+        
+    }
+
+    .about_clinic__img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .about_clinic__img img{
+        width: 400px;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .about_clinic__title {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .about_clinic__mini-title {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    
+
+    .about_clinic__text p{
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 436px) {
+    .about_clinic {
+        height: 560px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .container__about_clinic {
+        height: 560px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_clinic__info {
+        width: 280px;
+        height: 310px;
+    }
+
+    .about_clinic__text {
+        width: 280px;
+        
+    }
+
+    .about_clinic__img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .about_clinic__img img{
+        width: 280px;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .about_clinic__title {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .about_clinic__mini-title {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    
+
+    .about_clinic__text p{
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
 }

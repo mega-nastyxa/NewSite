@@ -24,4 +24,5 @@ body {
 .container {
     display: flex;
     width: 1340px;
+    padding: 15px;
 }

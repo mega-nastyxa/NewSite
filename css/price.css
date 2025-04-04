@@ -5,6 +5,7 @@
     margin: 0;
     padding: 50px;
 }
+
 .services {
     background: #fff;
     border-radius: 8px;
@@ -29,12 +30,15 @@
     cursor: pointer;
     font-size: 20px;
 }
+
 .service-item:last-child {
     border-bottom: none;
 }
+
 .service-name {
     font-weight: bold;
 }
+
 .sub-services {
     display: none;
     padding-left: 20px;
@@ -45,15 +49,44 @@
     max-height: 0;
     transition: max-height 0.3s ease-out;
 }
+
 .sub-services.open {
     display: block;
     max-height: 500px;
 }
+
 .sub-service-item {
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
 }
+
 .sub-service-price {
     color: #342344;
+}
+
+@media (max-width: 425px) {
+    .price {
+        padding: 10px;
+    }
+
+    .services {
+        padding: 10px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    .services__title {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .service-name {
+        font-size: 15px;
+    }
+
+    .sub-services {
+        font-size: 12px;
+    }
+
 }

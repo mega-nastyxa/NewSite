@@ -27,3 +27,12 @@ menuBar.addEventListener('mouseleave', () => {
         menuBar.classList.remove('visible');
     }, 300); // Задержка в 200 мс
 });
+
+
+
+// Круглая кнопка для мобилки
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("roundButton").addEventListener("click", function() {
+        document.querySelector(".container__header").classList.toggle("unblock");
+    });
+});

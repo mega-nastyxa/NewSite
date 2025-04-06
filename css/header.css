@@ -16,12 +16,19 @@
 }
 
 .logo {
-    width: 90px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo__img {
-    padding-top: 10px;
     width: 100px;
+}
+
+.header__text {
+    font-size: 18px;
+
 }
 
 .menu__list {

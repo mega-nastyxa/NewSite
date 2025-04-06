@@ -65,6 +65,14 @@
     color: #342344;
 }
 
+.sub-sub-service {
+    display: none; /* Hide nested sub-services by default */
+}
+
+.sub-sub-service.active {
+    display: block; /* Show nested sub-services when active */
+}
+
 @media (max-width: 425px) {
     .price {
         padding: 10px;

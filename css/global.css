@@ -28,8 +28,59 @@ body {
     padding: 15px;
 }
 
-.global__title {
+.global__title{
     font-size: 54px;
     color: rgb(73, 73, 73);
     font-weight: 700;
+    width: 1100px;
+}
+
+@media (max-width: 1372px) {
+    .global__title {
+        width: 1100px;
+    }
+    
+    .global__title h2{
+        font-size: 50px;
+        
+    }
+}
+
+@media (max-width: 1150px) {
+    .global__title {
+        width: 800px;
+    }
+    
+    .global__title h2{
+        font-size: 30px;
+        
+    }
+}
+
+@media (max-width: 1150px) {
+    .global__title {
+        width: 500px;
+    }
+    
+    .global__title h2{
+        font-size: 30px;
+        
+    }
+}
+
+@media (max-width: 806px) {
+    .global__title h2{
+        padding-bottom: 20px;
+        
+    }
+}
+
+@media (max-width: 639px) {
+    .global__title {
+        width: 300px;
+    }
+    .global__title h2{
+        font-size: 20px;
+        
+    }
 }

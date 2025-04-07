@@ -121,7 +121,7 @@
 
     .team__cards {
         grid-template-columns: repeat(1, 220px);
-        grid-template-rows: repeat(3, 340px);
+        grid-template-rows: repeat(3, 360px);
         
         height: auto;
     }
@@ -142,7 +142,7 @@
 
     .team__cards {
         grid-template-columns: repeat(1, 220px);
-        grid-template-rows: repeat(3, 300px);
+        grid-template-rows: repeat(3, 360px);
         
         height: auto;
     }

@@ -30,6 +30,10 @@
     font-size: 13px;
 }
 
+.header__text_menu {
+    display: none;
+}
+
 .menu__list {
     display: flex;
     justify-content: space-between;
@@ -228,6 +232,7 @@
         padding-bottom: 40px;
         font-size: 20px;
         color: #8778a8;
+        display: none;
     }
 
     .menu {

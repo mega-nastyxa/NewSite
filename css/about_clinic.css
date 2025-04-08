@@ -157,12 +157,12 @@
     }
 
     .about_clinic__img {
-        width: 280px;
+        width: 300px;
         height: 200px;
     }
 
     .about_clinic__img img{
-        width: 280px;
+        width: 300px;
         height: 200px;
         overflow: hidden;
     }

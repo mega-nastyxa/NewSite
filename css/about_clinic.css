@@ -46,9 +46,14 @@
     height: 400px;
 }
 
+.about_clinic__img img {
+    width: 100%;
+    height: 100%;
+}
+
 @media (max-width: 1372px) {
     .about_clinic {
-        height: 900px;
+        height: 1000px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -56,7 +61,7 @@
     }
     
     .container__about_clinic {
-        height: 720px;
+        height: 850px;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -70,6 +75,7 @@
     .about_clinic__img {
         width: 600px;
         overflow: hidden;
+        height: 500px;
     }
 }
 

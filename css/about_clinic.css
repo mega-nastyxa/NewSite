@@ -46,11 +46,6 @@
     height: 400px;
 }
 
-.about_clinic__img img {
-    width: 100%;
-    height: 100%;
-}
-
 @media (max-width: 1372px) {
     .about_clinic {
         height: 1000px;

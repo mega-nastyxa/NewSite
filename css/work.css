@@ -98,14 +98,12 @@
     .card__img_work {
         width: 100%;
         height: 200px;
-        border-radius: 5px;
         display: flex;
         justify-content: center;
         padding-top: 10px;
     }
 
     .card__img_work img {
-        border-radius: 2px;
         height: 200px;
     }
 }

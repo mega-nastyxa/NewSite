@@ -6,6 +6,13 @@
     min-height: 100vh;
 }
 
+.team__card-wrapper {
+    max-width: 1110px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
 .team__card-list .team__card-item {
     list-style: none;
 }

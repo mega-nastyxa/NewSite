@@ -291,8 +291,12 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 380px) {
+    .logo {
+        width: 220px;
+    }
+    
     .header__text {
-        display: none;
+        font-size: 12px;
     }
 }

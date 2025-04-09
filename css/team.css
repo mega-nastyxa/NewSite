@@ -1,4 +1,64 @@
+
 .team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+}
+.team__card-wrapper {
+}
+
+.team__card-list .team__card-item {
+    list-style: none;
+}
+
+.team__card-list .team__card-item .team__card-link {
+    user-select: none;
+    display: block;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    border: 2px solid transparent;
+    box-shadow:  0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+}
+
+.team__card-list .team__card-item .team__card-link:hover {
+    border-color: #4845e0;
+}
+
+.team__card-list .team__card-link .team__card-image  {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.team__card-list .team__card-link .team__card-title {
+    margin: 16px 0 18px;
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.team__card-list .team__card-link .card-subtitle {
+    font-size: 1.19rem;
+    color: black;
+    font-weight: 400;
+}
+
+.team__card-image {
+}
+.team__card-title {
+}
+.card-subtitle {
+}
+
+
+/* .team {
     height: auto;
     padding-top: 30px;
 }
@@ -147,5 +207,5 @@
         height: auto;
     }
 
-}
+} */
 

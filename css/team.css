@@ -5,10 +5,6 @@
     justify-content: center;
     min-height: 100vh;
 }
-.container {
-}
-.team__card-wrapper {
-}
 
 .team__card-list .team__card-item {
     list-style: none;
@@ -48,13 +44,6 @@
     font-size: 1.19rem;
     color: black;
     font-weight: 400;
-}
-
-.team__card-image {
-}
-.team__card-title {
-}
-.card-subtitle {
 }
 
 

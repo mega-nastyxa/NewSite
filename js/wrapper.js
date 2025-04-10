@@ -19,10 +19,10 @@ new Swiper('.team__card-wrapper', {
         0: {
             slidesPerView: 1
         },
-        768: {
+        812: {
             slidesPerView: 2
         },
-        1024: {
+        1213: {
             slidesPerView: 3
         },
     }

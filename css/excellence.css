@@ -1,10 +1,14 @@
 .excellence {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 300px;
     font-size: 23px;
+    z-index: 1;
+    bottom: -58px;
+    left: 0;
 }
 
 .container__excellence {
@@ -33,10 +37,19 @@
     text-align: center;
 }
 
+@media (max-width: 1372px) {
+    .excellence {
+        bottom: -22px;
+    }
+    
+}
+
 @media (max-width: 1040px) {
     .excellence {
+        position: static;
         height: 300px;
         font-size: 15px;
+        bottom: 0;
     }
     
     .cards {

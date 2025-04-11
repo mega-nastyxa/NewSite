@@ -41,7 +41,7 @@
 
 .sub-services {
     display: none;
-    padding-left: 20px;
+    padding-left: 4px;
     margin-top: 5px;
     font-size: 0.9em;
     overflow: hidden;
@@ -51,7 +51,7 @@
 
 .sub-services.open {
     display: block;
-    max-height: 700px;
+    max-height: 1500px;
 }
 
 .sub-service-item {
@@ -60,6 +60,10 @@
     padding: 10px 0;
     line-height: 28px;
     color: rgb(114, 113, 113);
+}
+
+.sub-service-name {
+    width: 210px;
 }
 
 .sub-service-price {
@@ -75,7 +79,7 @@
     display: block; /* Show nested sub-services when active */
 }
 
-@media (max-width: 425px) {
+@media (max-width: 472px) {
     .price {
         padding: 10px;
     }

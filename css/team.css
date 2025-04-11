@@ -1,4 +1,4 @@
-
+/* 
 .card {
     border-radius: 25px;
     background-color: aliceblue;
@@ -21,12 +21,12 @@
     object-fit: cover;
     border-radius: 50%;
     
-}
+} */
 
 
 
 
-/* .team {
+.team {
     margin-top: 70px;
     display: flex;
     align-items: center;
@@ -318,5 +318,5 @@
         height: auto;
     }
 
-} */
+} 
 

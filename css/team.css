@@ -1,4 +1,32 @@
-.team {
+
+.card {
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.card-image .card-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+
+
+
+/* .team {
     margin-top: 70px;
     display: flex;
     align-items: center;
@@ -290,5 +318,5 @@
         height: auto;
     }
 
-}
+} */
 

@@ -1,14 +1,13 @@
 .excellence {
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 300px;
     font-size: 23px;
     z-index: 1;
     bottom: -58px;
     left: 0;
+    transform: translateY(-50%);
 }
 
 .container__excellence {
@@ -50,6 +49,7 @@
         height: 300px;
         font-size: 15px;
         bottom: 0;
+        transform: none;
     }
     
     .cards {

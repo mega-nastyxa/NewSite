@@ -228,6 +228,10 @@
         display: none;
     }
 
+    .menu-bar {
+        display: none;
+    }
+
     .header__text_menu {
         padding-bottom: 40px;
         font-size: 20px;
@@ -249,6 +253,8 @@
         font-size: 30px;
         font-weight: 700;
     }
+
+
 
     .menu__list {
         display: block;

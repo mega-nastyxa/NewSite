@@ -1,11 +1,11 @@
-const pageHeader = document.querySelector(".page-header");
-const toggleMenu = pageHeader.querySelector(".toggle-menu");
-const menuWrapper = pageHeader.querySelector(".menu-wrapper");
+const pageHeader = document.querySelector(".header");
+const toggleMenu = pageHeader.querySelector(".toggle-menu-mobil");
+const menuWrapper = pageHeader.querySelector(".menu-mobil-wrapper");
 const level1Links = pageHeader.querySelectorAll(".level-1 > li > a");
 const listWrapper2 = pageHeader.querySelector(".list-wrapper:nth-child(2)");
 const listWrapper3 = pageHeader.querySelector(".list-wrapper:nth-child(3)");
-const subMenuWrapper2 = listWrapper2.querySelector(".sub-menu-wrapper");
-const subMenuWrapper3 = listWrapper3.querySelector(".sub-menu-wrapper");
+const subMenuWrapper2 = listWrapper2.querySelector(".sub-menu-mobil-wrapper");
+const subMenuWrapper3 = listWrapper3.querySelector(".sub-menu-mobil-wrapper");
 const backOneLevelBtns = pageHeader.querySelectorAll(".back-one-level");
 const backLabel2 = listWrapper2.querySelector(".back-one-level span");
 const backLabel3 = listWrapper3.querySelector(".back-one-level span");

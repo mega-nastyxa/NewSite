@@ -52,18 +52,17 @@
 .menu-bar {
     display: none;
     position: absolute;
-    /* left: -500px;
+    left: -500px;
     top: 0;
-    width: 500px; */
+    width: 500px; 
 
     top: 95px;
     width: 1340px;
     background-color: #efebf1;
-    /* font-family: "Inter", sans-serif; */
     font-weight: 400;
     padding: 20px 0 30px 19px;
     border-radius: 20px;
-    /* height: 100%; */
+  
     z-index: 2;
 }
 
@@ -164,31 +163,27 @@
     display: none;
 }
 
-.round-button {
-    display: none;
-}
-
 
 .header .unblock .menu {
     transform: translateX(100%);
 
 }
 
-.header .unblock .round-button span:nth-child(1) {
+.header .unblock .toggle-menu-bar span:nth-child(1) {
     transform: translateY(4px) rotate(45deg);
     transition: all 0.5s ease;
 }
 
-.header .unblock .round-button span:nth-child(2) {
+.header .unblock .toggle-menu-bar span:nth-child(2) {
     transform: translateY(-5px) rotate(-45deg);
     transition: all 0.5s ease;
 }
 
-.header .unblock .round-button {
+.header .unblock .toggle-menu-bar {
     background-color: #9189A1;
 }
 
-.header .unblock .round-button span {
+.header .unblock .toggle-menu-bar span {
     background-color: #FFFFFF;
 }
 
@@ -232,11 +227,11 @@
         display: none;
     }
 
-    .menu-bar {
+    .logo, .menu, .menu-bar {
         display: none;
-    }
+    } 
 
-    .header__text_menu {
+    /* .header__text_menu {
         padding-bottom: 40px;
         font-size: 20px;
         color: #8778a8;
@@ -276,9 +271,9 @@
     }
     
 
-    .round-button {
+    .toggle-menu-bar {
         border: none;
-        border-radius: 50%; /* Круглая форма */
+        border-radius: 50%;
         width: 50px;
         height: 50px;
         display: flex;
@@ -297,7 +292,7 @@
         background-color: #8778a8;
         margin: 3px 0;
         border-radius: 1px;
-    }
+    } */
 }
 
 

@@ -30,9 +30,9 @@ menuBar.addEventListener('mouseleave', () => {
 
 
 
-// Круглая кнопка для мобилки
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("roundButton").addEventListener("click", function() {
-        document.querySelector(".container__header").classList.toggle("unblock");
-    });
-});
+// // Круглая кнопка для мобилки
+// document.addEventListener("DOMContentLoaded", function() {
+//     document.getElementById("roundButton").addEventListener("click", function() {
+//         document.querySelector(".container__header").classList.toggle("unblock");
+//     });
+// });

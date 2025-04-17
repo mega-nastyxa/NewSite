@@ -2,13 +2,19 @@
 .bar-mobil-wrapper {
   display: none;
 }
-  
+
+.logo-mobil, 
+.logo__img-mobil,
+.header__text-mobil {
+    display: none;
+}
 
 @media (max-width: 1040px) {
   .bar-mobil-wrapper {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     z-index: 2;
-    background-color: #2c2c2c;
+    background-color: var(--dark-color);
   }
 
   .header {
@@ -19,16 +25,16 @@
     width: 100%;
     width: 100%;
     margin: 0 auto;
-    color: var(--white);
+    /* color: var(--white); */
   }
 
   .header .header-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+  
     padding: 0 20px;
-    background: var(--header-bar-bg);
+    background: var(--dark-color);
   }
 
   .header .header-bar .brand {
@@ -42,7 +48,7 @@
   .header .menu-mobil-wrapper {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 82px;
     left: 0;
     width: 100%;
     height: calc(100vh - 60px);
@@ -51,7 +57,7 @@
 
   .header .menu-mobil-wrapper.is-visible {
     display: block;
-    background-color: #2c2c2c;
+    color: #2c2c2c;
   }
 
   .header .list-wrapper {
@@ -84,6 +90,7 @@
 
   .header .menu-mobil-wrapper li+li {
     margin-top: 20px;
+    color: #2c2c2c;
   }
 
   .header .menu-mobil-wrapper a {
@@ -118,15 +125,16 @@
   }
 
   .header .back-one-level svg {
-    fill: var(--white);
+    fill: var(--dark);
     margin-right: 10px;
   }
+
   :root {
-    --white: #2c2c2c;
+    --dark: #2c2c2c;
     --yellow: #fffbbc;
     --orange: #d1b39f;
-    --header-bar-bg: #ececec;
-    --menu-mobil-bg: #202020;
+    --header-bar-bg: #dfdfdf;
+    --menu-mobil-bg: #f1f1f1;
   }
 
   button {
@@ -179,6 +187,12 @@
 
   .toggle-menu-mobil {
     font-family: inherit;
+  }
+
+  .logo-mobil, 
+  .logo__img-mobil,
+  .header__text-mobil {
+    display: block;
   }
 
 }

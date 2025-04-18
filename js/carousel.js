@@ -1,42 +1,28 @@
-(function(){
-    const carousel = {
-      element: document.querySelector('#carousel'),
-      previous:  document.querySelector('#carousel .previous'),
-      next:  document.querySelector('#carousel .next'),
-      images: document.querySelectorAll('#carousel li'),
-      tick: 2,
-      pause: 3000,
-    }
+let slideIndex = 1;
+showSlides(slideIndex);
 
-    //инициализация
-    for(let i = 0; i < carousel.images.length; ++i){
-        carousel.images[i].left = carousel.element.offsetWidth * i;
-        carousel.images[i].style.left = carousel.images[i].left + 'px';
-    }
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-    //анимация смещения
-    let j = 0, step = carousel.element.offsetWidth;
-    function animation(){
-      if( j < step){
-        j += 2;
-        for(let i = 0; i < carousel.images.length; ++i){
-          carousel.images[i].left -= 2;
-          carousel.images[i].style.left = carousel.images[i].left + 'px';
-        }
-    
-       setTimeout(animation, carousel.tick)
-      } else {
-        for(let i = 0; i < carousel.images.length; i++){
-          if(  carousel.images[i].left == -carousel.element.offsetWidth ){
-            carousel.images[i].left = carousel.element.offsetWidth * (carousel.images.length-1)
-            break;
-          }
-        }
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-        j = 0;
-        setTimeout(animation, carousel.pause);
-      }
-    }
-    animation();
-
-  })();
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}

@@ -8,149 +8,344 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="icon" type="image/png" href="./img/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
-            <div class="container__header">
-                <div class="logo">
-                    <img class="logo__img"src="../img/header/logo.svg" alt="">
-                    <div class="header__text">
-                        <h2>Клиника здоровья<br> и красоты </h2>
-                    </div>
+        <div class="container__header">
+            <div class="logo">
+                <img class="logo__img"src="../img/header/logo.svg" alt="">
+                <div class="header__text">
+                    <h2>Клиника здоровья<br> и красоты </h2>
                 </div>
-                
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a class="menu__link" href="../index.html">Главная</a> 
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu-button menu__link" id="menuButton">Услуги</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="../html/price.html">Цены</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="../html/doctors.html">Специалисты</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="../index.html#about-clinic">О клинике</a> 
-                        </li>
-                    </ul>
-                </nav>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="../index.html">Главная</a> 
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu-button menu__link" id="menuButton">Услуги</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="./price.html">Цены</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="./doctors.html">Специалисты</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">О клинике</a> 
+                    </li>
+                </ul>
+            </nav>
 
-                
-                <div class="information__signUp-header">
-                    <div class="number">
-                        <p>8 (901) 352-22-02</p>
-                    </div>
-                    <div class="icon-header telephone-header">
-                        <img src="../img/footer/call.svg" alt="">
-                    </div>
-                    <div class="icon-header telegram">
-                        <img src="../img/footer/telegram.svg" alt="">
-                    </div>
-                    <div class="icon-header whatsapp">
-                        <img src="../img/footer/whatsapp.svg" alt="">
-                    </div>
+            
+            <div class="information__signUp-header">
+                <div class="number">
+                    <p>8 (901) 352-22-02</p>
                 </div>
+                <div class="icon-header telephone-header">
+                    <img src="../img/footer/call.svg" alt="">
+                </div>
+                <div class="icon-header telegram">
+                    <img src="../img/footer/telegram.svg" alt="">
+                </div>
+                <div class="icon-header whatsapp">
+                    <img src="../img/footer/whatsapp.svg" alt="">
+                </div>
+            </div>
 
-                <button class="round-button" id="roundButton">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+            <nav class="menu-bar" id="menuBar">
+                <ul class="menu-bar__list">
+                    <li class="menu-bar__item">
+                        <a class="menu-bar__link" href="#">
+                            <img class="menu-icon" src="" alt="">
+                            Приемы врачей
+                        </a>
+                        <ul class="menu-bar__sub-list">
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Терапевт</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Диетолог</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Остеопат</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Рефлексотерапевт</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Дерматолог</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Косметолог</li>
+                        </ul>
+                    </li>
+                    <li class="menu-bar__item">
+                        <a class="menu-bar__link" href="#">
+                            <img class="menu-icon" src="" alt="">
+                            Диагностика организма
+                        </a>
+                        <ul class="menu-bar__sub-list">
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">VedaPulse</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Биорезонанская диагностика</li>
+                            <!-- <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Чек ап организма</li> -->
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Лабораторная диагностика</li>
+                        </ul>
+                    </li>
+                    <li class="menu-bar__item">
+                        <a class="menu-bar__link" href="#">
+                            <img class="menu-icon" src="" alt="">
+                            Капельницы
+                        </a>
+                        <ul class="menu-bar__sub-list">
+                            <li><a href="./html/drop.html"><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">капельницы IV - терапия</a></li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">ВЛОК</li>
+                        </ul>
+                    </li>
+                    <li class="menu-bar__item">
+                        <a class="menu-bar__link" href="#">
+                            <img class="menu-icon" src="" alt="">
+                            Косметология
+                        </a>
+                        <ul class="menu-bar__sub-list">
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Инъекционная</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Аппаратная</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Трихология</li>
+                        </ul>
+                    </li>
+                    <li class="menu-bar__item">
+                        <a class="menu-bar__link" href="#">
+                            <img class="menu-icon" src="" alt="">
+                            Остеопатия
+                        </a>
+                    </li>
+                    <li class="menu-bar__item">
+                        <a class="menu-bar__link" href="#">
+                            <img class="menu-icon" src="" alt="">
+                            Дерматология
+                        </a>
+                        <ul class="menu-bar__sub-list">
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Удаление новообразований</li>
+                        </ul>
+                    </li>
+                    <li class="menu-bar__item">
+                        <a class="menu-bar__link" href="#">
+                            <img class="menu-icon" src="" alt="">
+                            Корекция фигуры
+                        </a>
+                        <ul class="menu-bar__sub-list">
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Ручной массаж</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Аппартный массаж LPG</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Вибромассаж</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Прессотеррапия</li>
+                            <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Обертывание</li>
+                        </ul>
+                    </li>
+                    <li class="menu-bar__item">
+                        <a class="menu-bar__link" href="#">
+                            Выезд на дом
+                        </a>
+                        <a class="menu-bar__link" href="./html/machine.html">
+                            Наши аппараты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        
+        <nav class="bar-mobil-wrapper">
+            <div class="logo logo-mobil">
+            <img class="logo__img logo__img-mobil"src="../img/header/logo.svg" alt="">
+            </div>
+            <div class="header__text header__text-mobil">
+                <h2>Клиника здоровья<br> и красоты </h2>
+            </div>
+            <div class="header-bar">
+                <button class="toggle-menu-mobil" type="button">
+                    <p>Меню</p>
                 </button>
 
-                <nav class="menu-bar" id="menuBar">
-                    <ul class="menu-bar__list">
-                        <li class="menu-bar__item">
-                            <a class="menu-bar__link" href="#">
-                                <img class="menu-icon" src="" alt="">
-                                Приемы врачей
-                            </a>
-                            <ul class="menu-bar__sub-list">
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Терапевт</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Диетолог</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Остеопат</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Рефлексотерапевт</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Дерматолог</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Косметолог</li>
+            </div>
+
+            <div class="menu-mobil-wrapper">
+                <div class="list-wrapper">
+                    <ul class="menu-mobil level-1">
+                        <li>
+                            <img src="../img/header/menu-icon.svg" alt="">
+                            <a href="../index.html">Главная</a>
+                        </li>
+                        <li>
+                            <img src="../img/header/menu-icon.svg" alt="">
+                            <a href="" class="nested">Услуги</a>
+                            <ul class="sub-menu-mobil level-2">
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="" class="nested">Приемы врачей</a>
+                                    <ul class="sub-menu-mobil level-3">
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Терапевт</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Диетолог</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Остеопат</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Рефлексотерапевт</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Дерматолог</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Косметолог</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="" class="nested">Диагностика организма</a>
+                                    <ul class="sub-menu-mobil level-3">
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">VedaPulse</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Биорезонанская диагностика</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Лабораторная диагностика</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="" class="nested">Капельницы</a>
+                                    <ul class="sub-menu-mobil level-3">
+                                        <li>
+                                            <a href="./html/drop.html">капельницы IV - терапия</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">ВЛОК</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="" class="nested">Косметология</a>
+                                    <ul class="sub-menu-mobil level-3">
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Инъекционная</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Аппаратная</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Трихология</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="">Остеопатия</a>
+                                </li>
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="" class="nested">Дерматология</a>
+                                    <ul class="sub-menu-mobil level-3">
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Удаление новообразований</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href=""  class="nested">Корекция фигуры</a>
+                                    <ul class="sub-menu-mobil level-3">
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Ручной массаж</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Аппартный массаж LPG</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Вибромассаж</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Прессотеррапия</a>
+                                        </li>
+                                        <li>
+                                            <img src="../img/header/menu-icon.svg" alt="">
+                                            <a href="">Обертывание</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="">Выезд на дом</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="menu-bar__item">
-                            <a class="menu-bar__link" href="#">
-                                <img class="menu-icon" src="" alt="">
-                                Диагностика организма
-                            </a>
-                            <ul class="menu-bar__sub-list">
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">VedaPulse</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Биорезонанская диагностика</li>
-                                <!-- <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Чек ап организма</li> -->
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Лабораторная диагностика</li>
+                        <li>
+                            <img src="../img/header/menu-icon.svg" alt="">
+                            <a href="./price.html">Цены</a>
+                        </li>
+                        <li>
+                            <img src="../img/header/menu-icon.svg" alt="">
+                            <a href="./doctors.html">Специалисты</a>
+                        </li>
+                        <li>
+                            <img src="../img/header/menu-icon.svg" alt="">
+                            <a href="" class="nested">О клинике</a>
+                            <ul class="sub-menu-mobil level-2">
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="">Лицензия</a>
+                                </li>
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="">Интерьер клиники</a>
+                                </li>
+                                <li>
+                                    <img src="../img/header/menu-icon.svg" alt="">
+                                    <a href="">Наши аппараты</a>
+                                </li>
                             </ul>
-                        </li>
-                        <li class="menu-bar__item">
-                            <a class="menu-bar__link" href="#">
-                                <img class="menu-icon" src="" alt="">
-                                Капельницы
-                            </a>
-                            <ul class="menu-bar__sub-list">
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">капельницы IV - терапия</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">ВЛОК</li>
-                            </ul>
-                        </li>
-                        <li class="menu-bar__item">
-                            <a class="menu-bar__link" href="#">
-                                <img class="menu-icon" src="" alt="">
-                                Косметология
-                            </a>
-                            <ul class="menu-bar__sub-list">
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Инъекционная</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Аппаратная</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Трихология</li>
-                            </ul>
-                        </li>
-                        <li class="menu-bar__item">
-                            <a class="menu-bar__link" href="#">
-                                <img class="menu-icon" src="" alt="">
-                                Остеопатия
-                            </a>
-                        </li>
-                        <li class="menu-bar__item">
-                            <a class="menu-bar__link" href="#">
-                                <img class="menu-icon" src="" alt="">
-                                Дерматология
-                            </a>
-                            <ul class="menu-bar__sub-list">
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Удаление новообразований</li>
-                            </ul>
-                        </li>
-                        <li class="menu-bar__item">
-                            <a class="menu-bar__link" href="#">
-                                <img class="menu-icon" src="" alt="">
-                                Корекция фигуры
-                            </a>
-                            <ul class="menu-bar__sub-list">
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Ручной массаж</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Аппартный массаж LPG</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Вибромассаж</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Прессотеррапия</li>
-                                <li><img class="menu-icon" src="../img/header/menu-icon.svg" alt="">Обертывание</li>
-                            </ul>
-                        </li>
-                        <li class="menu-bar__item">
-                            <a class="menu-bar__link" href="#">
-                                Выезд на дом
-                            </a>
-                            <a class="menu-bar__link" href="./html/machine.html">
-                                Наши аппараты
-                            </a>
                         </li>
                     </ul>
-                </nav>
+                </div>
+                <div class="list-wrapper">
+                    <button type="button" class="back-one-level">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                            <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
+                        </svg>
+                        <span>Back</span>
+                    </button>
+                    <div class="sub-menu-mobil-wrapper"></div>
+                </div>
+                <div class="list-wrapper">
+                    <button type="button" class="back-one-level">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                            <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
+                        </svg>
+                        <span>Back</span>
+                    </button>
+                    <div class="sub-menu-mobil-wrapper"></div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <section class="work_home">
@@ -264,4 +459,5 @@
     </footer>
 <script src="../js/carousel.js"></script>
 <script src="../js/menu.js"></script>
+<script src="../js/bar.js"></script>
 </body>

@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     color: brown;
+    padding-top: 100px;
 }
 
 .container__drop {
@@ -17,7 +18,7 @@
     display: grid;
     gap: 35px;
     grid-template-columns: repeat(2, 600px);
-    grid-template-rows: repeat(10, 290px);
+    grid-template-rows: repeat(10, 310px);
     padding-bottom: 77px;
     
 }
@@ -105,6 +106,10 @@
 }
 
 @media (max-width: 660px) {
+    .drop {
+        padding-top: 40px
+    }
+
     .drop__cards {
         gap: 20px;
         grid-template-columns: repeat(1, 315px);
@@ -139,7 +144,7 @@
     }
 
     .drop-subtitle {
-        font-size: 30px;
+        font-size: 23px;
         color: aliceblue;
         padding-bottom: 5px;
     }

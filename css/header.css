@@ -190,21 +190,13 @@
 
 
 @media (max-width: 1372px) {
-    
-    .container__header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 40px;
-        width: 100%;
-    }
-
     .logo__img {
         width: 80px;
     }
 
     .information__signUp-header {
         gap: 10px;
+        width: 100px;
     }
 
     .number {
@@ -219,6 +211,22 @@
     .telephone-header img {
         width: 27px;
         height: 27px;
+    }
+}
+
+@media (max-width: 1242px) {
+    .logo {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1134px) {
+    .logo {
+        width: 290px;
+    }
+
+    .menu__list {
+        width: 560px;
     }
 }
 

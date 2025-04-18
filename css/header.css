@@ -232,6 +232,10 @@
         display: none;
     } 
 
+    .container__header {
+       display: none;
+    }
+
     /* .header__text_menu {
         padding-bottom: 40px;
         font-size: 20px;
